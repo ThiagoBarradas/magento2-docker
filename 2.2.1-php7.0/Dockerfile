@@ -2,7 +2,7 @@ FROM thiagobarradas/lamp:php-7.0
 MAINTAINER Thiago Barradas <th.barradas@gmail.com>
 
 # VARIABLES
-ENV MAGENTO_VERSION=2.2.2
+ENV MAGENTO_VERSION=2.2.1
 ENV ADMIN_FIRSTNAME="Admin" 
 ENV ADMIN_LASTNAME="Test" 
 ENV ADMIN_EMAIL="admin-magento2@mailinator.com" 
