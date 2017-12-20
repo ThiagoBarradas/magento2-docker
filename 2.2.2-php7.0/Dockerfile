@@ -23,13 +23,13 @@ RUN unzip magento2-$MAGENTO_VERSION.zip
 RUN cp -a magento2-$MAGENTO_VERSION/. /var/www/html
 
 # UNZIP MAGENTO2-SAMPLE-DATA
+WORKDIR /var/www/html
 RUN unzip magento2-sample-data-$MAGENTO_VERSION.zip
 RUN php -f magento2-sample-data-$MAGENTO_VERSION/dev/tools/build-sample-data.php -- --ce-source="/var/www/html"
 
 # COMPOSER INSTALL AND CLEAR TMP FILES
-WORKDIR /var/www/html
 RUN composer install
-RUN rm -rf tmp
+RUN rm -rf tmp/magento2-$MAGENTO_VERSION
 
 # COPY SCRIPT TO SETUP MAGENTO
 ENV IS_INITIALIZED=0
