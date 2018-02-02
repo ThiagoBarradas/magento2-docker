@@ -9,7 +9,7 @@ See more about this images in:
 
 ## Do you liked? Please, make a donate :v:
 
-if you liked this project, please make a contribution and help to keep this and other initiatives:
+if you liked this project, please make a contribution and help to keep this and other initiatives, send me some Satochis.
 
 BTC Wallet: `1G535x1rYdMo9CNdTGK3eG6XJddBHdaqfX`
 
